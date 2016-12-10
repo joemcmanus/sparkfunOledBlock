@@ -1,0 +1,15 @@
+#Startup file for lcdWakeUp.py 
+#Put file in /lib/systemd/system
+#run systemctl enable lcdWakeUp.service 
+
+[Unit]
+Description=Sparkfun OLED Display
+After=multi-user.target
+
+[Service]
+type=oneshot
+WorkingDirectory=/home/root
+ExecStart=/usr/bin/python lcdWakeUp.py
+
+[Install]
+WantedBy=multi-user.target
