@@ -18,3 +18,16 @@ This example script will read the 7 buttons on the OLED shield and display the o
       -h, --help  show this help message and exit
       --debug     Display button readings on terminal
       --version   show program's version number and exit
+
+Example
+    root@edison1:~# ./oled.py --debug
+    Starting Sparkfun OLED Edison Block Demo
+    Button A pressed.
+    Button B pressed.
+    Button Left pressed.
+    Button Right pressed.
+    Button Up pressed.
+    Button Up pressed.
+    Button Down pressed.
+    Button Select pressed.
+    Exiting Sparkfun OLED Edison Block Demo
