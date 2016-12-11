@@ -20,6 +20,7 @@ This example script will read the 7 buttons on the OLED shield and display the o
       --version   show program's version number and exit
 
 Example
+
     root@edison1:~# ./oled.py --debug
     Starting Sparkfun OLED Edison Block Demo
     Button A pressed.
